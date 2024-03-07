@@ -188,6 +188,25 @@ main {
 
     .primeira_secao {
         grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.75rem;
+    }
+
+    .primeira_secao picture {
+        grid-column: 1/3;
+    }
+
+    .primeira_secao img {
+        margin: 0;
+    }
+
+    .primeira_secao h1 {
+        font-size: 3.5rem;
+    }
+
+    .primeira_secao h2 {
+        font-size: 2.5rem;
     }
 
     header > button {
